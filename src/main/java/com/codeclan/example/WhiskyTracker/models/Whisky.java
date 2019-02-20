@@ -23,7 +23,7 @@ public class Whisky {
     @JoinColumn(name = "distillery_id", nullable = false)
     private Distillery distillery;
 
-    public Whisky(String name, int age,int year, Distillery distillery) {
+    public Whisky(String name, int age, int year, Distillery distillery) {
         this.name = name;
         this.age = age;
         this.year = year;
